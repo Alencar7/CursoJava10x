@@ -10,6 +10,7 @@ public class ninjas03 {
 
     public void mostrarInformacoes(){
         System.out.println("Eu sou o " + nome03 +".\n" +
+                "Idade: " + idade03 + ".\n" +
                 "Minha missao e " + missao03 + ".\n" +
                 "O nivel de dificuldade da missao: " + nivelDificuldade + ".\n" +
                 "Status da missao: " + statusMissao + ".\n");

@@ -26,6 +26,13 @@ public class mainTest {
         Sakura.idade = 14;
         Sakura.AtivarCura();
 
+        //Obj 4
+        Hyuga Hinata = new Hyuga();
+        Hinata.nome = "Hinata";
+        Hinata.aldeia = "Folha";
+        Hinata.idade = 14;
+        Hinata.ByakuganAtivado();
+
         //Aplicando Metodos ao Obj
         String chamandoMetodo = Sasuke.euSouUmNinja(); //str = String()
         System.out.println(chamandoMetodo);
@@ -34,7 +41,16 @@ public class mainTest {
         int quantoTempoFalta = Sasuke.anosParaTornarHokage(30); //
         System.out.println("Voce tem " + Sasuke.idade + "anos, entao falta no minimo " + quantoTempoFalta + " anos para se formar.");
 
+        System.out.println("_____________________________");
 
+        Boruto Boruto = new Boruto();
+        Boruto.nome = "Boruto Uzumaki";
+        Boruto.aldeia = "Folha 2.0";
+        Boruto.idade = 3;
+
+        Boruto.ModoSabio();
+        Boruto.AtivarOKarma();
+        Boruto.AtivarJougan();
 
     }
 }

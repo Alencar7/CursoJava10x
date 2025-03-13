@@ -18,8 +18,8 @@ public class condicao_desafio03 {
     PLUS:
         Como desafio adicional, implemente um `menu interativo` utilizando a classe Scanner
         para permitir ao usuario escolher entre diferentes opcoes,
-        como exibir informacoes de todos os ninjas,
-        adicionar novos ninjas ou atualizar as habiulidades especiais.
+        como -exibir informacoes- de todos os ninjas,
+        -adicionar novos ninjas- ou -atualizar as habiulidades especiais-.
         Isso ajudara a praticar o uso de entrada do usuario e controle de fluxo no programa.
 
      */
