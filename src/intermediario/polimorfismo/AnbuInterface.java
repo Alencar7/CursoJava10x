@@ -1,6 +1,6 @@
 package intermediario.polimorfismo;
 
-public interface AmbuInterface {
+public interface AnbuInterface {
 
     void ninjaDeElite();
 }

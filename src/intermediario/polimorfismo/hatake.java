@@ -1,6 +1,6 @@
 package intermediario.polimorfismo;
 
-public class hatake extends ninjas implements SharinganInterface, AmbuInterface, HokageInterface{
+public class hatake extends ninjas implements SharinganInterface, AnbuInterface, HokageInterface{
     // o kakahi tem caracteristicas do uchiha, ninjas, hatake = HERANCA MULTIPLA
     public void boasVindas(){
         System.out.println(nomeNinja + "Eu sou um Hatake");
@@ -24,7 +24,7 @@ public class hatake extends ninjas implements SharinganInterface, AmbuInterface,
     }
     // Metodo que vem da interface!
     public void ninjaDeElite(){
-        System.out.println(nomeNinja + ": Eu sou da Ambu!");
+        System.out.println(nomeNinja + ": Eu sou da Anbu!");
     }
     // Metodo que vem da interface!
     public void hokageAtivo() {

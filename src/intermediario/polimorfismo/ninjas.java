@@ -9,11 +9,18 @@ public abstract class ninjas implements EstrategiaDeBatalha {
     int idadeNinja;
     int numeroDeMissoesConcluidas;
     NivelNinja rank; //Enum
+    final double altura = 2.10;
 
 
     //o costrutor precisa instanciar nas subclasse!
     public ninjas() {
     }
+
+    //TODOEQUALQUER Ninja vai fazer!
+    final void tacarKunai() {
+        System.out.println("Eu sou um Metodo da Classe Mae!");
+    }
+
     //precisa instanciar nas subclasse!
     public ninjas(String nomeNinja, String aldeiaNinja, int idadeNinja) {
         this.nomeNinja = nomeNinja;
@@ -57,4 +64,12 @@ public abstract class ninjas implements EstrategiaDeBatalha {
         }
     }
 
+    @Override
+    public String toString() {
+        return "Esse e o metodo toString, para referencia de memoria";
+    }
+
+    final void nextLine(){
+        System.out.println("-----------------------------------------");
+    }
 }
