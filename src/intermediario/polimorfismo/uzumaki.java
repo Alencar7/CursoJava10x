@@ -9,6 +9,11 @@ public class uzumaki extends ninjas implements HokageInterface{
         super(nomeNinja, aldeiaNinja, idadeNinja);
     }
 
+    // sobrecarga do construtor
+    public uzumaki(String nomeNinja, String aldeiaNinja, int idadeNinja, int numeroDeMissoesConcluidas, NivelNinja rank) {
+        super(nomeNinja, aldeiaNinja, idadeNinja, numeroDeMissoesConcluidas, rank);
+    }
+
     @Override
     public void habilidadeEspecialNinja() {
         System.out.println("Meu nome e " + nomeNinja +
@@ -19,5 +24,8 @@ public class uzumaki extends ninjas implements HokageInterface{
     public void hokageAtivo() {
         System.out.println(nomeNinja + ": eu sou um Hokage!");
     }
+
+
+
 }
 
