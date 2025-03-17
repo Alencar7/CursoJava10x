@@ -6,6 +6,16 @@ public abstract class ninjas implements EstrategiaDeBatalha {
     String aldeiaNinja;
     int idadeNinja;
 
+    //precisa instanciar nas subclasse!
+    public ninjas() {
+    }
+    //precisa instanciar nas subclasse!
+    public ninjas(String nomeNinja, String aldeiaNinja, int idadeNinja) {
+        this.nomeNinja = nomeNinja;
+        this.aldeiaNinja = aldeiaNinja;
+        this.idadeNinja = idadeNinja;
+    }
+
     //Metodo Geral || Todos os ninjas vao ter
     public void habilidadeEspecialNinja() {
         System.out.println("Meu nome e " + nomeNinja + ". E este e meu ataque especial.");
