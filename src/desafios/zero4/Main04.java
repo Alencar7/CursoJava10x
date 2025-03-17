@@ -1,6 +1,6 @@
 package desafios.zero4;
 
-public class Main{
+public class Main04 {
     public static void main(String[] args) {
 
         NinjaBásico naruto = new NinjaBásico("Naruto Uzumaki", 17, "Hasengan", TipoHabilidade.GENJUTSU);

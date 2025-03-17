@@ -1,4 +1,4 @@
-package desafios;
+package desafios.zero1;
 
 public class desafio01 {
 

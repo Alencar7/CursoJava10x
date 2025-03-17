@@ -1,8 +1,6 @@
 package desafios.zero3;
 
-import java.util.Scanner;
-
-public class main03 {
+public class Main03 {
 
     public static void main(String[] args) {
 
