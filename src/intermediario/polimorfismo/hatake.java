@@ -9,10 +9,6 @@ public class hatake extends ninjas implements SharinganInterface, AnbuInterface,
     public hatake() {
     }
 
-    public hatake(String nomeNinja, String aldeiaNinja, int idadeNinja) {
-        super(nomeNinja, aldeiaNinja, idadeNinja);
-    }
-
     // sobrecarga do construtor
     public hatake(String nomeNinja, String aldeiaNinja, int idadeNinja, int numeroDeMissoesConcluidas, NivelNinja rank) {
         super(nomeNinja, aldeiaNinja, idadeNinja, numeroDeMissoesConcluidas, rank);

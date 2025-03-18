@@ -1,4 +1,4 @@
-package intermediario;
+package intermediario.refatoracao;
 
 //objeto
 public class Ninja {

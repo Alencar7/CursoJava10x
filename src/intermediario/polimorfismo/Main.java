@@ -5,12 +5,13 @@ public class Main {
     public static void main(String[] args) {
 
         //Obj Ninja nao da para ser criado
-        uzumaki naruto = new uzumaki("Naruto Uzumaki", "Folha", 17, 30, NivelNinja.GENIN);
+        uzumaki naruto = new uzumaki("Naruto Uzumaki", "Folha", 17, 30, NivelNinja.GENIN, Biju.KURAMA);
         naruto.habilidadeEspecialNinja();
         naruto.estrategiaDeBatalhaNinja();
         naruto.hokageAtivo(); //Interface
         System.out.println(naruto); //toString
         naruto.tacarKunai();
+        System.out.println(naruto.biju);
         naruto.nextLine();
 
         //Obj Final Class Anbu
@@ -37,9 +38,9 @@ public class Main {
         uchiha madara = new uchiha("Madara Uchiha", "Folha",72, 1000, NivelNinja.KAGE);
         madara.estrategiaDeBatalhaNinja();
         madara.habilidadeEspecialNinja();
-        //metodo padrao
+        //metodo PADRAO -> inteligenciaDeCombate
         madara.inteligenciaDeCombate();
-        //metodo sobrecarregado
+        //metodo SOBRECARREGADO -> inteligenciaDeCombate
         madara.inteligenciaDeCombate(180);
         madara.nextLine(); // final method
 

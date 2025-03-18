@@ -1,6 +1,6 @@
-package intermediario;
+package intermediario.refatoracao;
 
-public class Hyuga extends Ninja{
+public class Hyuga extends Ninja {
 
     public void ByakuganAtivado() {
         //O metodo() void nao retorna valor

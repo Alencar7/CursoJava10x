@@ -1,4 +1,4 @@
-package intermediario;
+package intermediario.refatoracao;
 
 public class mainTest {
     public static void main(String[] args) {

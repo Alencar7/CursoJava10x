@@ -1,4 +1,4 @@
-package intermediario;
+package intermediario.refatoracao;
 
 public class Uchiha extends Ninja {
 
