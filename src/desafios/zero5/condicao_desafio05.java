@@ -42,7 +42,7 @@ public class condicao_desafio05 {
 
     - Crie 1 interface 1 classe abstrata e 2 classes concretas
     - Adicione um atributo saldo(double) e um construtor para inicializar
-    o Adicione um atributo saldo (double) e um construtor para inicializar o saldo..
+      Adicione um atributo saldo (double) e um construtor para inicializar o saldo..
     - Implemente o méthodo consultarSaldo() para retornar o saldo atual.
     - Deixe o méthodo depositar(double valor) abstrato para que assubclasses possam
       implementar de forma específica.
