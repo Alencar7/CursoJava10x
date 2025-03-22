@@ -14,6 +14,10 @@ public class main {
         Hashirama.nomeDoHokage();
         Hashirama.tacarKunai();
 
+        //inicializacao de um Obj por Record
+        HokagesRecord hokagesRecord = new HokagesRecord("Kakashi", 36);
+
+
 
 
 
