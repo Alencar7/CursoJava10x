@@ -13,7 +13,8 @@ public class condicao_desafio06 {
     um novo ninja no início e exibir a lista completa-.
     Também será possível acessar um ninja em uma
     posição específica da lista.
-    >O objetivo é praticar o uso
+
+    > O objetivo é praticar o uso
     de LinkedList, incluindo os métodos de adicionar,
     remover e acessar elementos, em uma estrutura
     dinâmica.

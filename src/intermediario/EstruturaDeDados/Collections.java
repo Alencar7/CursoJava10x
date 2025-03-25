@@ -49,6 +49,7 @@ public class Collections {
         PriorityQueue<String> priorityQueue = new PriorityQueue<>();
 
         //linkedlist
+        LinkedList<String> linkedlist = new LinkedList<>();
         linkedList.add("Naruto do LinkedList");
         System.out.println(linkedList);
 
