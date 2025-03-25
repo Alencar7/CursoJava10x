@@ -4,14 +4,16 @@ public class condicao_desafio06 {
 
     /*
     Você foi encarregado de desenvolver um sistema em
-    Java para gerenciar uma lista de ninjas usando a
-    estrutura de dados LinkedList. Cada ninja terá nome,
-    idade e vila. Inicialmente, sete ninjas serão
+    Java para -gerenciar uma lista de ninjas usando a
+    estrutura de dados LinkedList-. Cada ninja terá
+    -nome, idade e vila-.
+    Inicialmente, sete(7) ninjas serão
     adicionados à lista, e o sistema deverá permitir
-    operações como remover o primeiro ninja, adicionar
-    um novo ninja no início e exibir a lista completa.
+    operações como -remover o primeiro ninja, adicionar
+    um novo ninja no início e exibir a lista completa-.
     Também será possível acessar um ninja em uma
-    posição específica da lista. O objetivo é praticar o uso
+    posição específica da lista.
+    >O objetivo é praticar o uso
     de LinkedList, incluindo os métodos de adicionar,
     remover e acessar elementos, em uma estrutura
     dinâmica.
