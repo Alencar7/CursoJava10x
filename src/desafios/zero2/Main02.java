@@ -15,7 +15,7 @@ public class Main02 {
 
         while (opcao != 3) {
 
-            System.out.println("Sistema de cadastro.\n" +
+            System.out.println("Sistema de Ninja.\n" +
                     "As opçoes sao: \n" +
                     "1- Adicionar o nome \n" +
                     "2- Mostrar a lista de nomes \n" +
@@ -32,7 +32,7 @@ public class Main02 {
                         usuarios[usuariosCadastrados] = nomeUsuario;
                         usuariosCadastrados++;
 
-                        System.out.println("Cadastro realizado!");
+                        System.out.println("Ninja realizado!");
                     } else {
                         System.out.println("A lista esta cheia.");
                     }

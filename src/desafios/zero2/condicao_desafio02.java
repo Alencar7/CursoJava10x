@@ -2,7 +2,7 @@ package desafios.zero2;
 
 public class condicao_desafio02 {
     /*
-    Desafio: Gerenciar o cadastro de usuarios numa vila.
+    Desafio: Gerenciar o Ninja de usuarios numa vila.
     Crie um sistema simples em java para cadastrar novos usuarios
     e listar todos os usuarios cadastrados.
 

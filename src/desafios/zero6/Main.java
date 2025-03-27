@@ -24,12 +24,11 @@ public class Main {
 
         LinkedList<ListaDeCadastro> linkedListCadastro = new LinkedList<>(listaDeCadastros);
 
-        System.out.println("Entrar no sistema de cadastro!" +
+        System.out.println("Entrar no sistema de Ninja!" +
                 "\nDigite '1' para entrar ou '0' para sair.");
         int opcao = scanner.nextInt();
 
         while ( opcao != 0) {
-
             System.out.println("Manual:" +
                     "\n1. Adicionar Novo Ninja." +
                     "\n2. Remover o primeiro Ninja" +
@@ -54,7 +53,7 @@ public class Main {
 
                 case 2: //remover
                     //remover o primeiro ninja
-                    linkedListCadastro.remove(); // removeFirst
+                    linkedListCadastro.removeFirst(); // removeFirst
                     System.out.println("Ninja removido!");
                     break;
 
@@ -80,7 +79,6 @@ public class Main {
                     } else {
                         System.out.println("Nao tem essa posicao");
                     }
-
                     break;
 
                 case 0: //sair
